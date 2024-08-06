@@ -1,3 +1,33 @@
+Test desde Postman
+localhost:8080/](http://localhost:8080/api/auth/login
+Content-Type:application/json
+{
+  "username": "user",
+  "password": "password"
+}
+
+listar  
+Get :  http://localhost:8080/api/tipocambio
+Content-Type:application/json
+
+Registrar
+
+Post : http://localhost:8080/api/tipocambio
+Content-Type:application/json
+{
+    "rate": 13,
+    "fromCurrency":"3.8",
+    "toCurrency":"3.75",
+    "username":"ricardo"
+}
+
+Buscar 
+Get  :  http://localhost:8080/api/tipocambio/1
+Content-Type:application/json
+
+
+
+
 AuthController
 Este controlador maneja las solicitudes de autenticación y registro de usuarios, generando y devolviendo un token JWT (JSON Web Token) para los usuarios autenticados.
 
